@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "typeRoots": ["./node_modules/@types", "./types"], // Adjust this if necessary
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["*.ts", "models/**/*.ts", "middlewares/**/*.ts", "controllers/**/*.ts", "routes/**/*.ts"],
+  "exclude": ["node_modules", "dist"]
+}
