@@ -52,7 +52,6 @@
     "undefsafe": "^2.0.5"
   },
   "scripts": {
-    "build": "tsc",
     "start": "nodemon app.js",
     "dev": "nodemon app.ts"
   },
